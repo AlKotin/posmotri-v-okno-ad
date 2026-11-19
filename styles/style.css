@@ -227,9 +227,10 @@ ol {
 
 .content__details {
   display: flex;
+  flex: 1;
   flex-direction: column;
   gap: 26px;
-  width: 100%;
+  min-width: 0;
   height: 100%;
 }
 
